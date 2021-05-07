@@ -24,11 +24,13 @@ public class PSS {
         
         String search = scan.nextLine();
 
-        if (search = taskName) {
+        for (String element : taskList){
 
-            System.out.println(search.Task());
-        }
+            if (element.contains(search)){
 
+                  System.out.println(element);
+            }
+      }
         scan.close();
 
     }
